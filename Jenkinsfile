@@ -17,7 +17,6 @@ pipeline {
 
         stage('Test1') {
           steps {
-            retry(count: 1)
             echo 'Run completed'
           }
         }
